@@ -11,3 +11,10 @@ Automatic Approach:
 This strategy utilizes the machine learning method. Predictive analysis is first performed once the datasets have been trained. Word extraction from the text is the subsequent procedure. Creating a model using MultinomialNB,GaussianNB.
 This method has been used for the Webapp, using NLTK and deployed using Heroku.
 
+Article Sentiment Analysis
+   |____templates
+           |___index.html  ## homepage file
+           |___result.html ## to show prediction
+   |____static
+           |____style.css  ## css file
+   |____app.py  ## main flask file
