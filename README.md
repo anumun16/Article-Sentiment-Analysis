@@ -6,6 +6,7 @@ For this assignment, I attempted to train my model in two methods:
 
 Rule Based Approach:
 In this attempt text mining is used to demonstrate how to use Python to compute two scores: sentiment polarity and subjectivity. It may determine whether the text contains positive or negative feedback by looking at the polarity, which ranges from -1 to 1 (negative to positive). 
+
 Files:
 SentimentAnalysis.ipynb
 
