@@ -12,9 +12,9 @@ This strategy utilizes the machine learning method. Predictive analysis is first
 This method has been used for the Webapp, using NLTK and deployed using Heroku.
 
 Article Sentiment Analysis
-   |____templates
-           |___index.html  ## homepage file
-           |___result.html ## to show prediction
-   |____static
+  |____templates
+         |___index.html  ## homepage file
+         |___result.html ## to show prediction
+  |____static
            |____styles.css  ## css file
-   |____app.py  ## main flask file
+  |____app.py  ## main flask file
