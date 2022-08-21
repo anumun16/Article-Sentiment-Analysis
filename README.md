@@ -3,6 +3,7 @@ Using python, train sentiment analysis model(s) for an article dataset of over 2
 
 Sentiment analysis is the contextual mining of words that reveals the social sentiment of a brand and aids businesses in determining if the product they are producing will find a market.
 For this assignment, I attempted to train my model in two methods:
+
 Rule Based Approach:
 In this attempt text mining is used to demonstrate how to use Python to compute two scores: sentiment polarity and subjectivity. It may determine whether the text contains positive or negative feedback by looking at the polarity, which ranges from -1 to 1 (negative to positive). 
 
