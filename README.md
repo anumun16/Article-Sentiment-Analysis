@@ -6,12 +6,15 @@ For this assignment, I attempted to train my model in two methods:
 
 Rule Based Approach:
 In this attempt text mining is used to demonstrate how to use Python to compute two scores: sentiment polarity and subjectivity. It may determine whether the text contains positive or negative feedback by looking at the polarity, which ranges from -1 to 1 (negative to positive). 
+
 Files:
 SentimentAnalysis.ipynb
 
 Automatic Approach:
 This strategy utilizes the machine learning method. Predictive analysis is first performed once the datasets have been trained. Word extraction from the text is the subsequent procedure. Creating a model using MultinomialNB,GaussianNB.
 This method has been used for the Webapp, using NLTK and deployed using Heroku.
+
+
 Files:
   index.html  ## homepage file
   result.html ## to show prediction
