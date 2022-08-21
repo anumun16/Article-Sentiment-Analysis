@@ -1,5 +1,5 @@
 # Article-Sentiment-Analysis
-Using python, train sentiment analysis model(s) for an article dataset of over 20,000 articles  and as well as develop a web-app to take in the input of any title plus article text and return the relevant sentiment analysis values you can take out (Prediction).
+Using python, train sentiment analysis model(s) for an article dataset of over 20,000 articles and as well as develop a web-app to take in the input of any title plus article text and return the relevant sentiment analysis values you can take out (Prediction).
 
 Sentiment analysis is the contextual mining of words that reveals the social sentiment of a brand and aids businesses in determining if the product they are producing will find a market.
 For this assignment, I attempted to train my model in two methods:
