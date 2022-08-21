@@ -16,5 +16,5 @@ Article Sentiment Analysis
            |___index.html  ## homepage file
            |___result.html ## to show prediction
    |____static
-           |____style.css  ## css file
+           |____styles.css  ## css file
    |____app.py  ## main flask file
