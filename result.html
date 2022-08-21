@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Sentiment Analysis</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+
+	<body>
+		<div class="results">
+			{% if prediction==1 %}
+				<h1 class="prediction">Prediction: <span class='safe'>Positive😄</span></h1>
+			{% elif prediction==0 %}
+				<h1 class="prediction">Prediction: <span class='danger'>Negative😑</span></h1>
+			{% endif %}
+		</div>
+
+        <div class='footer'>
+            <div class="contact">
+				<a target="_blank" href="https://github.com/anumun16"><i class="fa fa-github fa-lg contact-icon"></i></a>
+				<a href="/" class="home">HOME</a>
+                <a target="_blank" href="https://www.linkedin.com/in/anushka-munde-b082aa185"><i class="fa fa-linkedin fa-lg contact-icon"></i></a>
+            </div>
+            <p class='footer-description'> Anushka</p>
+        </div>
+
+	</body>
+</html>
