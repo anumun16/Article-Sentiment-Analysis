@@ -9,13 +9,14 @@
 <body>
     
     <div class="container">
-        <h2 class='container-heading'><span><strong>Articles Sentiment Analysis </strong>😑</h2>
+        <h2 class='container-heading'><span><strong>Sentiment Analysis for Reviews using ML </strong></h2>
     </div>
     <div class="ml-container">
         <br><br><br><br>
         <form action="{{ url_for('predict') }}" method="POST">
-            <input type="text" name="review" class="input"  placeholder="Please Enter the Article Details here" autocomplete="off" required >
+            <input type="text" name="review" class="input"  placeholder="Enter your comment here" autocomplete="off" required >
             <br>
+             <input type="text" name="review" class="input"  placeholder="Paste URL here" autocomplete="off" required >
             <br>
             <input type="submit" class="my-cta-button" value="Predict">
         </form>
@@ -25,7 +26,6 @@
             <a target="_blank" href=""><i class="fab fa-github fa-lg contact-icon"></i></a>
             <a target="_blank" href=""><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
         </div>
-        <p class='footer-description'>Anushka</p>
     </div>
 </body>
 </html>
